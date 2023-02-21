@@ -1,82 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <meta charset="UTF-8">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <script defer="defer" src="js/51.09ef2d50d54590ce503d.js"></script>
+    <script defer="defer" src="js/scripts.9e58b3c67646e20ee792.js"></script>
+    <link href="styles/scripts.37c0e1dd091d6586a982.css" rel="stylesheet">
 </head>
+
 <body>
-		<!-- Начало: Данный блок удалять нельзя -->
-		<style>
-			.maketforfigma{
-				flex: 0 0 auto;
-				/*background: #303b44;*/
-				/*background: #5CDB95;*/
-				background: #313a46;
-				font-weight: bold;
-				display: flex;
-			}
-			.maketforfigma img{
-				border-radius: 10px;
-				margin: 4px 0 0 4px;
-			}
-			.maketforfigma p {
-				/*color: #fff;*/
-				/*color: #05386B;*/
-				color: #98a6ad;
-				text-decoration: none;
-				letter-spacing: .01875rem;
-				font-size: .775rem;
-				padding: 0 10px;
-				line-height: 0.70rem;
-			}
+    <!-- Начало: Данный блок удалять нельзя -->
+    <style>
+        .maketforfigma {
+            flex: 0 0 auto;
+            /*background: #303b44;*/
+            /*background: #5CDB95;*/
+            background: #313a46;
+            font-weight: bold;
+            display: flex;
+        }
 
-			.maketforfigma p > a {
-				/*color: #08ff00;*/
-				/*color: #EDF5E1;*/
-				color: #bbe4f0;
-				font-weight: bold;
-			}
-			.maketforfigma p > a:hover {
-				/*color: #ffa001*/
-				/*color: #379683*/
-				color: #ffffff
-			}
+        .maketforfigma img {
+            border-radius: 10px;
+            margin: 4px 0 0 4px;
+        }
 
-			.main{
-				flex: 1 0 auto;
-			}
+        .maketforfigma p {
+            /*color: #fff;*/
+            /*color: #05386B;*/
+            color: #98a6ad;
+            text-decoration: none;
+            letter-spacing: .01875rem;
+            font-size: .775rem;
+            padding: 0 10px;
+            line-height: 0.70rem;
+        }
 
-			html{
-				height: 100%;
-			}
+        .maketforfigma p>a {
+            /*color: #08ff00;*/
+            /*color: #EDF5E1;*/
+            color: #bbe4f0;
+            font-weight: bold;
+        }
 
-			body{
-				display: flex;
-				flex-direction: column;
-				height: 100%;
-				padding: 0;
-				margin: 0;
-			}
-		</style>
-		<div class="maketforfigma">
-			<a href="https://t.me/s/FigmaToHTML" target="_blank">
-				<img src="logo.png">
-			</a>
-			<div>
-				<p>
-					Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
-				</p>
-				<p>
-					При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
-					<a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
-				</p>
-			</div>
-		</div>
-		<!-- Конец -->
+        .maketforfigma p>a:hover {
+            /*color: #ffa001*/
+            /*color: #379683*/
+            color: #ffffff
+        }
 
-		<div class="main">
-			В данном блоке размещается верстка
-		</div>
+        .main {
+            flex: 1 0 auto;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+    <div class="maketforfigma">
+        <a href="https://t.me/s/FigmaToHTML" target="_blank">
+            <img src="logo.png">
+        </a>
+        <div>
+            <p>
+                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a
+                    href="https://t.me/s/FigmaToHTML/2" target="_blank">FIGMA | Макеты для верстки</a>
+            </p>
+            <p>
+                При помощи бота <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">FIGMA | 💵 Верстай
+                    за деньги</a> пользователь получил оплату за верстку этого сайта и попал в рейтинги сайта
+                <a href="https://maketforfigma.ru" target="_blank">FIGMA — Макеты для верстки</a>
+            </p>
+        </div>
+    </div>
+    <!-- Конец -->
+
+    <div class="main">
+        <section class="header">
+            <div class="header__plus"></div>
+            <div class="header__circle1"></div>
+            <div class="header__circle2"></div>
+            <div class="container">
+                <div class="header__content">
+                    <div class="header__logo"><img class="header__img" src="images/logo-image.png" alt="img-logo"></div>
+                    <nav class="header__nav"><a class="header__nav-link" href="#">Home </a><a class="header__nav-link"
+                            href="#">Destinations </a><a class="header__nav-link" href="#">About </a><a
+                            class="header__nav-link" href="#">Partner</a></nav>
+                    <div class="header__buttons"><a class="header__login" href="#login">Login</a><a
+                            class="header__register" href="#register">Register</a></div>
+                </div>
+                <div class="header__main">
+                    <div class="header__main-text">
+                        <h1 class="header__title">Explore and Travel</h1>
+                        <p class="header__suptitle">Holiday finder</p>
+                        <div class="header__finder"><select class="header__finder-select">
+                                <option class="header__finder-option" value="Location" selected="selected">Location
+                                </option>
+                            </select><select class="header__finder-select">
+                                <option class="header__finder-option" value="Activity" selected="selected">Activity
+                                </option>
+                            </select><select class="header__finder-select">
+                                <option class="header__finder-option" value="Grade" selected="selected">Grade</option>
+                            </select><select class="header__finder-select">
+                                <option class="header__finder-option" value="Date" selected="selected">Date</option>
+                            </select></div><a class="header__btn" href="#Explore">Explore</a>
+                    </div>
+                    <div class="header__main-pic"></div>
+                </div>
+            </div>
+        </section>
+        <section class="welcome">
+            <div class="welcome__plus"></div>
+            <div class="welcome__circle"></div>
+            <div class="container">
+                <div class="welcome__content">
+                    <div class="welcome__pic"></div>
+                    <div class="welcome__text">
+                        <h1 class="welcome__title">A new way to explore the world</h1>
+                        <p class="welcome__subtitle">For decades travellers have reached for Lonely Planet books when
+                            looking to
+                            plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences
+                            lead the
+                            way</p><a class="welcome__btn" href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dest">
+            <div class="dest__plus"></div>
+            <div class="dest__circle1"></div>
+            <div class="dest__circle2"></div>
+            <div class="container">
+                <div class="dest__contant">
+                    <div class="dest__title-wrap">
+                        <h2 class="dest__title">Featured destinations</h2><a class="dest__all" href="#">View all</a>
+                    </div>
+                    <div class="dest__cards">
+                        <div class="dest__card">
+                            <div class="dest__card-pic"><img class="dest__card-img" src="images/card1.jpg"
+                                    alt="indonesia-img">
+                            </div>
+                            <div class="dest__card-descr">
+                                <div class="dest__card-title">Raja Ampat</div>
+                                <div class="dest__card-country">Indonesia</div>
+                            </div>
+                        </div>
+                        <div class="dest__card">
+                            <div class="dest__card-pic"><img class="dest__card-img" src="images/card2.jpg"
+                                    alt="china-img">
+                            </div>
+                            <div class="dest__card-descr">
+                                <div class="dest__card-title">Fanjingshan</div>
+                                <div class="dest__card-country">China</div>
+                            </div>
+                        </div>
+                        <div class="dest__card">
+                            <div class="dest__card-pic"><img class="dest__card-img" src="images/card3.jpg"
+                                    alt="switzerland-img"></div>
+                            <div class="dest__card-descr">
+                                <div class="dest__card-title">Vevey</div>
+                                <div class="dest__card-country">Switzerland</div>
+                            </div>
+                        </div>
+                        <div class="dest__card">
+                            <div class="dest__card-pic"><img class="dest__card-img" src="images/card4.jpg"
+                                    alt="montenegro-img">
+                            </div>
+                            <div class="dest__card-descr">
+                                <div class="dest__card-title">Skadar</div>
+                                <div class="dest__card-country">Montenegro</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="guides">
+            <div class="guides__plus1"></div>
+            <div class="guides__plus2"></div>
+            <div class="guides__circle"></div>
+            <div class="container">
+                <div class="guides__content">
+                    <div class="guides__text">
+                        <h2 class="guides__title">Guides by Thousand Sunny</h2>
+                        <p class="guides__subtitle">Packed with tips and advice from our on-the-ground experts, our city
+                            guides
+                            app (iOS and Android) is the ultimate resource before and during a trip.</p><a
+                            class="guides__btn" href="#download">Download</a>
+                    </div>
+                    <div class="guides__pic"></div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="reviews__plus"></div>
+            <div class="reviews__circle1"></div>
+            <div class="reviews__circle2"></div>
+            <div class="container">
+                <div class="reviews__content">
+                    <h2 class="reviews__title title">Testimonials</h2>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__text">
+                                        <div class="reviews__ratings">
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                        </div>
+                                        <p class="reviews__subtitle subtitle">“Quisque in lacus a urna fermentum
+                                            euismod.
+                                            Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi
+                                            blandit sit
+                                            amet turpis nec”</p>
+                                        <div class="reviews__name">Edward Newgate</div>
+                                        <div class="reviews__founder">Founder Circle</div>
+                                    </div>
+                                    <div class="reviews__wrap">
+                                        <div class="reviews__pic"><img class="reviews__img" src="images/photo.jpg"
+                                                alt="photo">
+                                            <div class="reviews__nav">
+                                                <div class="reviews__nav-left"></div>
+                                                <div class="reviews__nav-right"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__text">
+                                        <div class="reviews__ratings">
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                        </div>
+                                        <p class="reviews__subtitle subtitle">“Quisque in lacus a urna fermentum
+                                            euismod.
+                                            Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi
+                                            blandit sit
+                                            amet turpis nec”</p>
+                                        <div class="reviews__name">Edward Newgate</div>
+                                        <div class="reviews__founder">Founder Circle</div>
+                                    </div>
+                                    <div class="reviews__wrap">
+                                        <div class="reviews__pic"><img class="reviews__img" src="images/photo.jpg"
+                                                alt="photo">
+                                            <div class="reviews__nav">
+                                                <div class="reviews__nav-left"></div>
+                                                <div class="reviews__nav-right"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__text">
+                                        <div class="reviews__ratings">
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                            <div class="reviews__rating"></div>
+                                        </div>
+                                        <p class="reviews__subtitle subtitle">“Quisque in lacus a urna fermentum
+                                            euismod.
+                                            Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi
+                                            blandit sit
+                                            amet turpis nec”</p>
+                                        <div class="reviews__name">Edward Newgate</div>
+                                        <div class="reviews__founder">Founder Circle</div>
+                                    </div>
+                                    <div class="reviews__wrap">
+                                        <div class="reviews__pic"><img class="reviews__img" src="images/photo.jpg"
+                                                alt="photo">
+                                            <div class="reviews__nav">
+                                                <div class="reviews__nav-left"></div>
+                                                <div class="reviews__nav-right"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stories">
+            <div class="stories__plus"></div>
+            <div class="stories__circle1"></div>
+            <div class="stories__circle2"></div>
+            <div class="container">
+                <div class="stories__contant">
+                    <div class="stories__title-wrap">
+                        <h2 class="stories__title title">Trending stories</h2><a class="stories__all" href="#">View
+                            all</a>
+                    </div>
+                    <div class="stories__cards">
+                        <div class="stories__cardWrap">
+                            <div class="stories__card">
+                                <div class="stories__pic"><img class="stories__img" src="images/image1.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="stories__title">The many benefits of taking a healing holiday</div>
+                            <div class="stories__description">‘Helaing holidays’ are on the rise tohelp maximise your
+                                health and
+                                happines...</div><a class="stories__btn" href="#">Read more</a>
+                        </div>
+                        <div class="stories__cardWrap">
+                            <div class="stories__card">
+                                <div class="stories__pic"><img class="stories__img" src="images/image2.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="stories__title">The best Kyoto restaurant to try Japanese food</div>
+                            <div class="stories__description">From tofu to teahouses, here’s our guide to Kyoto’s best
+                                restaurants to visit...</div><a class="stories__btn" href="#">Read more</a>
+                        </div>
+                        <div class="stories__cardWrap">
+                            <div class="stories__card">
+                                <div class="stories__pic"><img class="stories__img" src="images/image3.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="stories__title">Skip Chichen Itza and head to this remote Yucatan</div>
+                            <div class="stories__description">It’s remote and challenging to get, but braving the jungle
+                                and
+                                exploring these ruins without the...</div><a class="stories__btn" href="#">Read more</a>
+                        </div>
+                        <div class="stories__cardWrap">
+                            <div class="stories__card">
+                                <div class="stories__pic"><img class="stories__img" src="images/image4.jpg" alt="image">
+                                </div>
+                            </div>
+                            <div class="stories__title">Surf’s up at these beginner spots around the world</div>
+                            <div class="stories__description">If learning to surf has in on your to- do list for a
+                                while, the
+                                good news is: it’s never too late...</div><a class="stories__btn" href="#">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="footer__copyright-wrap">
+                        <div class="footer__logo"></div>
+                        <div class="footer__text">Plan and book your perfect trip with expert advice, travel tips
+                            destination
+                            information from us</div>
+                        <div class="footer__copyryght">©2020 Thousand Sunny. All rights reserved</div>
+                    </div>
+                    <div class="footer__links-wrap">
+                        <div class="footer__links">
+                            <div class="footer__links-title">Destinations</div>
+                            <ul class="footer__links-list">
+                                <li class="footer__links-item"><a class="footer__link" href="#">Africa</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Antarctica</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Asia</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Europe</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">America</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__links">
+                            <div class="footer__links-title">Shop</div>
+                            <ul class="footer__links-list">
+                                <li class="footer__links-item"><a class="footer__link" href="#">Destination Guides</a>
+                                </li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Practical &amp;
+                                        Gifts</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Special Offers</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Delivery Times</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__links">
+                            <div class="footer__links-title">Interests</div>
+                            <ul class="footer__links-list">
+                                <li class="footer__links-item"><a class="footer__link" href="#">Adventure Travel</a>
+                                </li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Art And Culture</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Wildlife And Nature</a>
+                                </li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Family Holidays</a></li>
+                                <li class="footer__links-item"><a class="footer__link" href="#">Food And Drink</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__socials">
+                    <div class="footer__social"><img class="footer__social-img" src="images/tweetter.png"
+                            alt="social image">
+                    </div>
+                    <div class="footer__social"><img class="footer__social-img" src="images/facebook.png"
+                            alt="social image">
+                    </div>
+                    <div class="footer__social"><img class="footer__social-img" src="images/instagramm.png"
+                            alt="social image">
+                    </div>
+                    <div class="footer__social"><img class="footer__social-img" src="images/linkedin.png"
+                            alt="social image">
+                    </div>
+                    <div class="footer__social"><img class="footer__social-img" src="images/youtube.png"
+                            alt="social image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
